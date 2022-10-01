@@ -12,7 +12,54 @@
     <title>QUIENES SOMOS: Telovendo SA de CV</title>
 </head>
 <body>
-    hsdhklhq
+     <!--NAVBAR -->
+     <nav class="navbar" role="navigation" aria-label="main navitation" style="background-color: gold;">
+        <!-- parte del logo -->
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="telo.png" width="40" height="180">
+            </a>
+            <!--icono de burger-->
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="miMenu"
+                id="burger_" onclick="toggleBurger()">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <!--el menu-->
+        <div id="miMenu" class="navbar-menu">
+
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    INICIO
+                </a>
+                <a class="navbar-item" href="productos.html">
+                  PRODUCTOS
+                </a>
+                <a class="navbar-item" href="somos.html">
+                    ¿QUIENES SOMOS?
+                  </a>
+                  <a class="navbar-item" href="contactos.html">
+                    CONTACTANOS
+                  </a>
+            </div>
+
+
+            <!-- objetos al lado derecho del navbar-->
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <!--
+                        success  primary, secondary, dark, danger
+                        warning info  black dark
+                    -->
+                        <a class="button is-dark" onclick="window.close()">Cerrar Sesion</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     
 </body>
 </html>
